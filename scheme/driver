@@ -1,0 +1,13 @@
+#!/bin/bash
+#----------------------------------------
+# Scheme/guile driver
+#
+# Usage:
+#   $ chmod +x driver
+#   $ ./driver
+#----------------------------------------
+
+guile hello_world.scm
+guile scm_func.scm
+
+guile -c '(display "\nThe End\n")'
