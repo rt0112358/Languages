@@ -7,6 +7,8 @@
 ;   $ guile
 ;   scheme@(guile-user) [#]> (load "scm_func.scm")
 ;   OR
+;   $ guile scm_func.scm 
+;   OR
 ;   $ ./driver
 ;------------------------------------------------------
 

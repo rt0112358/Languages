@@ -22,3 +22,6 @@ push:
 	git commit -m "$(msg)"
 	@git status
 	@git push
+
+sync:
+	@sh sync_pub.sh

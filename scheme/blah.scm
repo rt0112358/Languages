@@ -1,6 +1,6 @@
 (define (tsar subj srch repl)
-    (cons srch repl)
-    (if (eq? subj srch) (cons subj repl) subj)
+    ; (cons srch repl)
+    (if (eq? subj srch) repl subj)
 )
 
 (display (tsar 'x 'y 'z) )
@@ -27,3 +27,26 @@
 (display
     (cdr (cdr '(a b c)) )
 )(newline)
+
+
+
+(random 10)
+(newline)
+
+(display (cons '(3 4) '() ) )
+
+(newline)
+(define (length lis)
+   (cond ((null? lis)
+          0)
+         (else
+          (+ 1 (length (cdr lis))))))
+
+(display (length '(1 2 3) ))
+(display "\n")
+(display "\n")
+(display "\n")
+(display "\n")
+
+
+
